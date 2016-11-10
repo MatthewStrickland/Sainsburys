@@ -2,6 +2,8 @@
 
 Java 1.8 used. Maven used for dependency management so this will need to be set up beforehand.
 
-Able to run the app through an IDE, either with program arguments or not. If no arguments provided then it will prompt for the URL in the console, if with arguments it will run through them (providing they are valid).
+You are able to run the app through an IDE, either with program arguments or without.
+If no arguments are provided then it will prompt for the URL in the console, if arguments are provided it will iterate through them (providing they are valid URL's).
+Most likely the only case needed will be to run the main class (ScraperApplication.java) with no arguments, and simply hit return on the console.
 
-To run tests either through the IDE, or with a mvn clean install in the appropriate directory.
+Tests can be ran either through an IDE, or with a mvn clean install in the appropriate directory.
