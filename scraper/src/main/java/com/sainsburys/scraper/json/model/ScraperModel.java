@@ -12,8 +12,10 @@ import org.hibernate.validator.constraints.NotEmpty;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-@JsonPropertyOrder(value = { ScraperResultModel.TITLE, ScraperResultModel.SIZE, ScraperResultModel.UNIT_PRICE,
-        ScraperResultModel.DESCRIPTION })
+/**
+ * The scraper wrapping model.
+ */
+@JsonPropertyOrder(value = { ScraperModel.RESULTS, ScraperModel.TOTAL })
 public class ScraperModel {
 
     /** Result JSON name. */
